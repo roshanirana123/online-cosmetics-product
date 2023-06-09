@@ -1,0 +1,38 @@
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 246, 246);
+    overflow: hidden;
+    position:sticky;
+    z-index: 1000;
+    top:0;
+    left:0;
+  }
+  
+   ul.navbar li {
+    float: left;
+  }
+   
+  ul.navbar li a {
+    display: block;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 10px 60px;
+    text-decoration: none;
+  }
+  
+  ul.navbar li a:hover {
+    color:#171717; 
+    /* background-color: #a3a39b; */
+  }
+
+
+.user-icon{
+    margin-left: -70px;
+}
+/* 
+.user-icon a:hover{
+    background-color:none;
+} */
+
