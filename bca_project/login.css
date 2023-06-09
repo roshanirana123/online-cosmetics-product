@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+.main{
+    width: 400px;
+    border-radius: 10px;
+    background-color: rgb(193, 183, 202);
+    padding: 30px 20px;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.field input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    height: 30px;
+    padding: 0 10px;
+}
+.field input:focus{
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+}
+.btn{
+    text-align: center;
+    margin-top: 20px;
+}
+.btn input{
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: 700;
+    background-color: yellowgreen;
+    color: #fff;
+    cursor: pointer;
+}
+.register{
+    margin-top: 10px;
+    text-align: center;
+}
+.register a{
+    text-decoration: none;
+    color: blue;
+}
+.error{
+    text-align: center;
+    color: #f00;
+    margin-top: 10px;
+}
+.home{
+    text-align: center;
+    margin-top: 10px;
+}
+.home a{
+    color: blue;
+    text-decoration: none;
+}
