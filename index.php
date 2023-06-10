@@ -66,7 +66,7 @@
             <button class="buy-btn">Buy</button>
             </div>
           </div>
-</div>
+  </div>
 
         <div class="card">
           <img src="./Image/eye-shadows-6198839.jpg" alt="Product Image">
